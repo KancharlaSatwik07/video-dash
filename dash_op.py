@@ -25,13 +25,13 @@ import gdown
 
 # ================= CONFIG =================
 BASE_PATH = "./users/"
-SFTP_HOST = "appserver.dev.8db3ca6d-1c90-4eab-acb4-5453c2a5add0.drush.in"
+SFTP_HOST = ""
 SFTP_PORT = 2222
-SFTP_USERNAME = "dev.8db3ca6d-1c90-4eab-acb4-5453c2a5add0"
+SFTP_USERNAME = ""
 PRIVATE_KEY_PATH = "id_rsa"
 REMOTE_BASE_PATH = "/code/dash/"
-BASE_URL = "https://dev-cdn-satvik.pantheonsite.io/dash/"
-TMDB_API_KEY = "303405b8c9e2eb7bcdadfed24baf5c18"
+BASE_URL = ""
+TMDB_API_KEY = ""
 UPLOAD_WORKERS = 6          # parallel SFTP connections
 USE_GPU_ENCODING = True     # try NVENC first, fallback to libx264 veryfast
 FFMPEG_THREADS = "0"        # 0 = use all available cores
